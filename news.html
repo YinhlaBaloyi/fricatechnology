@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+</head>
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #004080;
+            overflow: hidden;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .navbar a {
+            display: inline-block;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-size: 17px;
+            transition: background 0.3s, color 0.3s;
+        }
+        
+        .navbar a:hover {
+            background-color: #008080;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .active{
+            background-color: #008080;
+            transition: 10s;
+            border-radius: 5px;
+        }
+      
+        h1 {
+            text-align: center;
+            color: #004080;
+            margin-top: 20px;
+        }
+        .image-container{
+            text-align: center;
+            margin-top: 20px
+        }
+        .image-container img {
+            width: 50%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .content-box{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            text-align: center;
+            
+           margin: 20px auto;
+        }
+        .ul{
+            list-style-type: none;
+            padding: 0px
+        }
+        .li{
+            background-color: #333;
+            margin: 10px 0;
+            padding: 5px;
+            border-left: 5px solid #008080;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+</style>
+
+<body>
+    
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="contactus.html" target="_blank">Contact Us</a>
+        <a class="active" href="news.html">News</a>
+        <a href="services.html" target="_blank">Services</a>
+        <a href="aboutus.html" target="_blank">About Us</a>
+</div>
+<h1> <u>NEWS</u></h1>
+    <div class="content-box">
+
+    <p>
+        <ul>
+           <li class="target"> <strong>Expanding Our Services</strong>: We are introducing new and improved solutions in cloud computing, cybersecurity, and AI-driven applications to help businesses optimize their operations.</li>
+           <li class="target"><strong>Client Success Stories</strong>: We take pride in the success of our clients! Stay tuned for case studies showcasing how Frica Tech has transformed businesses through cutting-edge technology.</li>
+           <li class="target"> <strong>Upcoming Events & Webinars</strong>: Join us for insightful discussions, workshops, and networking events where we explore the latest trends in IT and business technology.</li>
+          
+
+
+        </ul>
+    </p>
+</div>
+<div class="image-container">
+    <img src="images/hacker.jpg" alt="">
+</div>
+    <link rel="stylesheet" href="css/style.css">
+
+    
+</body>
+</html>
